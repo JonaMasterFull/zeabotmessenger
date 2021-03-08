@@ -1,0 +1,24 @@
+{
+  "name": "zea-bot",
+  "version": "1.0.0",
+  "description": "My first Facebook Messenger Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "bot",
+    "messenger"
+  ],
+  "author": "Zea app",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": "8.9.1"
+  }
+}
